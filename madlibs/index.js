@@ -48,4 +48,4 @@ if (player == 1 || player == 'one'|| player == 'One' ){
             }
           }
           
-          madlibs();
+         document.getElementsByTagName("body").outerHTML = madlibs();
